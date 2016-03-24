@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7C4D2F07-F544-40AA-BEAF-85B8D1E830C8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Münar lander</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DA1CF67AC6C93ED1C1DF9D198D2350E5FB8687CE</key>
+		<string>https://github.com/mdutton-fullsail/CurrentCourse.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Munar Lander Free/Münar_Lander/Münar lander.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DA1CF67AC6C93ED1C1DF9D198D2350E5FB8687CE</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mdutton-fullsail/CurrentCourse.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DA1CF67AC6C93ED1C1DF9D198D2350E5FB8687CE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DA1CF67AC6C93ED1C1DF9D198D2350E5FB8687CE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CurrentCourse</string>
+		</dict>
+	</array>
+</dict>
+</plist>
