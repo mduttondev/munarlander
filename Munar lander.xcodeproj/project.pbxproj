@@ -65,6 +65,8 @@
 		C98E054B1A6D87FE00E75CCF /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98E054A1A6D87FE00E75CCF /* GameKit.framework */; };
 		C9D41F151A65D03C005EAEB2 /* FuelBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D41F141A65D03C005EAEB2 /* FuelBar.m */; };
 		C9D41F171A65D3B1005EAEB2 /* fuel_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D41F161A65D3B1005EAEB2 /* fuel_gradient.png */; };
+		C9D50F911D0CAAE8004EACB8 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D50F8F1D0CAAE8004EACB8 /* Fabric.framework */; };
+		C9D50F921D0CAAE8004EACB8 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D50F901D0CAAE8004EACB8 /* Crashlytics.framework */; };
 		C9EC4E531A702F01000CAD83 /* LeaderBoardScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EC4E521A702F01000CAD83 /* LeaderBoardScene.m */; };
 		C9F9A9791A70439900589DD6 /* GameDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F9A9781A70439900589DD6 /* GameDataHelper.m */; };
 /* End PBXBuildFile section */
@@ -169,6 +171,8 @@
 		C9D41F131A65D03C005EAEB2 /* FuelBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuelBar.h; sourceTree = "<group>"; };
 		C9D41F141A65D03C005EAEB2 /* FuelBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuelBar.m; sourceTree = "<group>"; };
 		C9D41F161A65D3B1005EAEB2 /* fuel_gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuel_gradient.png; sourceTree = "<group>"; };
+		C9D50F8F1D0CAAE8004EACB8 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		C9D50F901D0CAAE8004EACB8 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		C9EC4E511A702F01000CAD83 /* LeaderBoardScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderBoardScene.h; sourceTree = "<group>"; };
 		C9EC4E521A702F01000CAD83 /* LeaderBoardScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderBoardScene.m; sourceTree = "<group>"; };
 		C9F9A9771A70439900589DD6 /* GameDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameDataHelper.h; sourceTree = "<group>"; };
@@ -182,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C919CA921914920B005A592D /* SystemConfiguration.framework in Frameworks */,
+				C9D50F911D0CAAE8004EACB8 /* Fabric.framework in Frameworks */,
 				C919CA90191491F3005A592D /* MessageUI.framework in Frameworks */,
 				C919CA8E191491E8005A592D /* AudioToolbox.framework in Frameworks */,
 				C9623D0E1909947700023695 /* AVFoundation.framework in Frameworks */,
@@ -190,6 +195,7 @@
 				C902039318FD9B130032A053 /* UIKit.framework in Frameworks */,
 				C902039518FD9B130032A053 /* SpriteKit.framework in Frameworks */,
 				C902038F18FD9B120032A053 /* Foundation.framework in Frameworks */,
+				C9D50F921D0CAAE8004EACB8 /* Crashlytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +235,8 @@
 			isa = PBXGroup;
 			children = (
 				C9F9A97B1A70496900589DD6 /* libsqlite3.dylib */,
+				C9D50F8F1D0CAAE8004EACB8 /* Fabric.framework */,
+				C9D50F901D0CAAE8004EACB8 /* Crashlytics.framework */,
 				C98E054A1A6D87FE00E75CCF /* GameKit.framework */,
 				C919CC7C19149EE1005A592D /* CoreTelephony.framework */,
 				C919CA9319149217005A592D /* AdSupport.framework */,
@@ -511,6 +519,7 @@
 				C902038718FD9B120032A053 /* Sources */,
 				C902038818FD9B120032A053 /* Frameworks */,
 				C902038918FD9B120032A053 /* Resources */,
+				C9D50F8E1D0CAA79004EACB8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -627,6 +636,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9D50F8E1D0CAA79004EACB8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 59f486796c08f97effc9178d1210ee7b7d2862fb d6bc0507f09198ef303827cffa9cf7acce8f24451bd3e338406e554d284f58e8";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C902038718FD9B120032A053 /* Sources */ = {
@@ -771,6 +796,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Münar Lander/Munar lander-Prefix.pch";
 				INFOPLIST_FILE = "Münar Lander/Munar lander-Info.plist";
@@ -795,6 +824,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Münar Lander/Munar lander-Prefix.pch";
 				INFOPLIST_FILE = "Münar Lander/Munar lander-Info.plist";
