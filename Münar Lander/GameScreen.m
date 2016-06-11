@@ -804,7 +804,7 @@ typedef NS_OPTIONS(uint32_t, myPhysicsCategory) {
 - (void)createLandingPadWithName:(NSString*)padName atPosition:(CGPoint)location withSize:(CGSize)padSize andCategory:(u_int32_t)category {
     
     // starting landing pad
-    SKSpriteNode* LandingPad = [SKSpriteNode spriteNodeWithColor:nil size:padSize];
+    SKSpriteNode* LandingPad = [SKSpriteNode spriteNodeWithColor:[UIColor clearColor] size:padSize];
     
     LandingPad.position = location;
     

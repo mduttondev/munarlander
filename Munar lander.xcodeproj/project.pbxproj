@@ -554,7 +554,7 @@
 		C902038318FD9B120032A053 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Matthew Dutton";
 				TargetAttributes = {
 					C902038A18FD9B120032A053 = {
@@ -733,6 +733,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -809,6 +810,7 @@
 					/Users/Matt/Desktop,
 					"$(PROJECT_DIR)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkdutton.munarlanderfree;
 				PRODUCT_NAME = "Munar lander";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
@@ -837,6 +839,7 @@
 					/Users/Matt/Desktop,
 					"$(PROJECT_DIR)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkdutton.munarlanderfree;
 				PRODUCT_NAME = "Munar lander";
 				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
@@ -861,6 +864,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Münar LanderTests/Munar landerTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mkdutton.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Munar landerTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -879,6 +883,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Münar Lander/Münar Lander-Prefix.pch";
 				INFOPLIST_FILE = "Münar LanderTests/Munar landerTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mkdutton.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Munar landerTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
