@@ -249,8 +249,9 @@ static GameDataHelper* instance = nil;
             
             GKAchievementDescription* achDescription = [achievementDescriptions objectForKey:achievement.identifier];
             
-            [successMessage appendFormat:@"\n%@", achDescription.title];
-            
+            if (achDescription != nil && achDescription.title != nil){
+                [successMessage appendFormat:@"\n%@", achDescription.title];
+            }
         }
         
     }
@@ -265,12 +266,14 @@ static GameDataHelper* instance = nil;
                 
             } else {
                 
-                [[[UIAlertView alloc]initWithTitle:@"Achievement(s) Unlocked:"
-                                           message:[NSString stringWithFormat:@"%@", successMessage]
-                                          delegate:self cancelButtonTitle:@"Sweet!!"
-                                 otherButtonTitles: nil] show];
+                if (successMessage != nil && successMessage.length > 0) {
+                    
+                    [[[UIAlertView alloc]initWithTitle:@"Achievement(s) Unlocked:"
+                                               message:[NSString stringWithFormat:@"%@", successMessage]
+                                              delegate:self cancelButtonTitle:@"Sweet!!"
+                                     otherButtonTitles: nil] show];
                 
-                
+                }
                 //delay retrieving the ACH by 4 seconds to allow the server to record them. If you dont do this you can earn each twice.
                 dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                     
