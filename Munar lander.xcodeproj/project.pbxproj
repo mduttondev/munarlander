@@ -219,8 +219,8 @@
 		C902038218FD9B120032A053 = {
 			isa = PBXGroup;
 			children = (
-				C902039618FD9B130032A053 /* Münar Lander */,
-				C90203BA18FD9B130032A053 /* Münar LanderTests */,
+				C902039618FD9B130032A053 /* Munar Lander */,
+				C90203BA18FD9B130032A053 /* Munar LanderTests */,
 				C902038D18FD9B120032A053 /* Frameworks */,
 				C902038C18FD9B120032A053 /* Products */,
 			);
@@ -259,7 +259,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C902039618FD9B130032A053 /* Münar Lander */ = {
+		C902039618FD9B130032A053 /* Munar Lander */ = {
 			isa = PBXGroup;
 			children = (
 				C9D1B07A1F844ACF00D782E9 /* Icon Artwork */,
@@ -282,7 +282,7 @@
 				C90203AD18FD9B130032A053 /* Images.xcassets */,
 				C902039718FD9B130032A053 /* Supporting Files */,
 			);
-			path = "Münar Lander";
+			path = "Munar Lander";
 			sourceTree = "<group>";
 		};
 		C902039718FD9B130032A053 /* Supporting Files */ = {
@@ -296,13 +296,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C90203BA18FD9B130032A053 /* Münar LanderTests */ = {
+		C90203BA18FD9B130032A053 /* Munar LanderTests */ = {
 			isa = PBXGroup;
 			children = (
 				C90203C018FD9B130032A053 /* Mu_nar_LanderTests.m */,
 				C90203BB18FD9B130032A053 /* Supporting Files */,
 			);
-			path = "Münar LanderTests";
+			path = "Munar LanderTests";
 			sourceTree = "<group>";
 		};
 		C90203BB18FD9B130032A053 /* Supporting Files */ = {
