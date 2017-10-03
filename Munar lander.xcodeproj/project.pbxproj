@@ -63,7 +63,6 @@
 		C98684D51910886F00E67280 /* Right_Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C98684CD1910886F00E67280 /* Right_Arrow.png */; };
 		C98684D61910886F00E67280 /* Thrust_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = C98684CE1910886F00E67280 /* Thrust_Button.png */; };
 		C98E054B1A6D87FE00E75CCF /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98E054A1A6D87FE00E75CCF /* GameKit.framework */; };
-		C9AB757D1D0CCCDB009CACF0 /* MunarLander1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AB757C1D0CCCDB009CACF0 /* MunarLander1024x1024.png */; };
 		C9D41F151A65D03C005EAEB2 /* FuelBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D41F141A65D03C005EAEB2 /* FuelBar.m */; };
 		C9D41F171A65D3B1005EAEB2 /* fuel_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D41F161A65D3B1005EAEB2 /* fuel_gradient.png */; };
 		C9D50F911D0CAAE8004EACB8 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D50F8F1D0CAAE8004EACB8 /* Fabric.framework */; };
@@ -168,8 +167,11 @@
 		C98684CD1910886F00E67280 /* Right_Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Right_Arrow.png; sourceTree = "<group>"; };
 		C98684CE1910886F00E67280 /* Thrust_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thrust_Button.png; sourceTree = "<group>"; };
 		C98E054A1A6D87FE00E75CCF /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		C9AB757C1D0CCCDB009CACF0 /* MunarLander1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MunarLander1024x1024.png; sourceTree = "<group>"; };
 		C9B4FE7D1A718BB300E6D6E8 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C9D1B0791F844A8A00D782E9 /* MunarLander2048x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MunarLander2048x2048.png; sourceTree = "<group>"; };
+		C9D1B07B1F844AE900D782E9 /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		C9D1B07C1F844AEA00D782E9 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		C9D1B07D1F844AEA00D782E9 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
 		C9D41F131A65D03C005EAEB2 /* FuelBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuelBar.h; sourceTree = "<group>"; };
 		C9D41F141A65D03C005EAEB2 /* FuelBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuelBar.m; sourceTree = "<group>"; };
 		C9D41F161A65D3B1005EAEB2 /* fuel_gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuel_gradient.png; sourceTree = "<group>"; };
@@ -260,7 +262,7 @@
 		C902039618FD9B130032A053 /* Münar Lander */ = {
 			isa = PBXGroup;
 			children = (
-				C9AB757C1D0CCCDB009CACF0 /* MunarLander1024x1024.png */,
+				C9D1B07A1F844ACF00D782E9 /* Icon Artwork */,
 				C943E33719006F0800BCF511 /* iPad */,
 				C9F9A97A1A70439D00589DD6 /* Game Data Helper */,
 				C90203D618FD9F9F0032A053 /* Main Menu */,
@@ -485,6 +487,17 @@
 			name = "Game Images";
 			sourceTree = "<group>";
 		};
+		C9D1B07A1F844ACF00D782E9 /* Icon Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				C9D1B07B1F844AE900D782E9 /* iTunesArtwork@1x.png */,
+				C9D1B07C1F844AEA00D782E9 /* iTunesArtwork@2x.png */,
+				C9D1B07D1F844AEA00D782E9 /* iTunesArtwork@3x.png */,
+				C9D1B0791F844A8A00D782E9 /* MunarLander2048x2048.png */,
+			);
+			name = "Icon Artwork";
+			sourceTree = "<group>";
+		};
 		C9D41F191A65D42E005EAEB2 /* FuelBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -611,7 +624,6 @@
 				C98684D21910886F00E67280 /* Left_Arrow.png in Resources */,
 				C9129DC119143C7500EF21B5 /* SFXON.png in Resources */,
 				C919CC9619152E46005A592D /* README.txt in Resources */,
-				C9AB757D1D0CCCDB009CACF0 /* MunarLander1024x1024.png in Resources */,
 				C964A41E19118DF9007A29FB /* fantasy-forest.mp3 in Resources */,
 				C98684D61910886F00E67280 /* Thrust_Button.png in Resources */,
 				C95907B219CE192200C01DF4 /* iPad.storyboard in Resources */,
