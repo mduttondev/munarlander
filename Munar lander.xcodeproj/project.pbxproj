@@ -530,6 +530,7 @@
 				TargetAttributes = {
 					C902038A18FD9B120032A053 = {
 						DevelopmentTeam = NN495VBEDV;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
 								enabled = 1;
@@ -762,6 +763,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NN495VBEDV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -777,7 +780,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mkdutton.munarlanderfree;
 				PRODUCT_NAME = "Munar lander";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "d6fc9e63-47d5-4a9b-9626-b107c988a2e9";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.mkdutton.munarlanderfree";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
@@ -791,6 +795,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NN495VBEDV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -806,7 +812,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mkdutton.munarlanderfree;
 				PRODUCT_NAME = "Munar lander";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "d6fc9e63-47d5-4a9b-9626-b107c988a2e9";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.mkdutton.munarlanderfree";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
