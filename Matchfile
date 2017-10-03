@@ -1,0 +1,7 @@
+git_url "https://github.com/mduttondev/Certificates"
+
+app_identifier ["com.mkdutton.munarlanderfree"]
+username "mduttondev@gmail.com"
+
+# For all available options run `match --help`
+# Remove the # in the beginning of the line to enable the other options

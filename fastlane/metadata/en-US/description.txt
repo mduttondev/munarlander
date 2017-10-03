@@ -1,1 +1,0 @@
-Munar Lander is a fun, single stage game that was built as a school project. Fly a replica Munar lander on a scrolling background while avoiding falling asteroids to an ultimate end point where you need to land on the landing pad to win the game.
