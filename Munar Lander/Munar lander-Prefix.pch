@@ -1,16 +1,15 @@
 //
-//  Prefix header
+//  Munar lander-Prefix.pch
+//  Munar lander
 //
-//  The contents of this file are implicitly included at the beginning of every source file.
+//  Created by Matthew Dutton on 10/3/17.
+//  Copyright © 2017 Matthew Dutton. All rights reserved.
 //
 
-#import <Availability.h>
+#ifndef Munar_lander_Prefix_pch
+#define Munar_lander_Prefix_pch
 
-#ifndef __IPHONE_5_0
-#warning "This project uses features only available in iOS SDK 5.0 and later."
-#endif
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
-#ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
-#endif
+#endif /* Munar_lander_Prefix_pch */

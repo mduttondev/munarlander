@@ -15,11 +15,6 @@
 		C902039D18FD9B130032A053 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C902039C18FD9B130032A053 /* main.m */; };
 		C90203A118FD9B130032A053 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C90203A018FD9B130032A053 /* AppDelegate.m */; };
 		C90203AE18FD9B130032A053 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90203AD18FD9B130032A053 /* Images.xcassets */; };
-		C90203B518FD9B130032A053 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90203B418FD9B130032A053 /* XCTest.framework */; };
-		C90203B618FD9B130032A053 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C902038E18FD9B120032A053 /* Foundation.framework */; };
-		C90203B718FD9B130032A053 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C902039218FD9B130032A053 /* UIKit.framework */; };
-		C90203BF18FD9B130032A053 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C90203BD18FD9B130032A053 /* InfoPlist.strings */; };
-		C90203C118FD9B130032A053 /* Mu_nar_LanderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C90203C018FD9B130032A053 /* Mu_nar_LanderTests.m */; };
 		C90203CC18FD9E110032A053 /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C90203CB18FD9E110032A053 /* MainMenuScene.m */; };
 		C90203CF18FD9F310032A053 /* OptionsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C90203CE18FD9F310032A053 /* OptionsScene.m */; };
 		C90203D218FD9F7B0032A053 /* GameScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = C90203D118FD9F7B0032A053 /* GameScreen.m */; };
@@ -71,16 +66,6 @@
 		C9F9A9791A70439900589DD6 /* GameDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F9A9781A70439900589DD6 /* GameDataHelper.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C90203B818FD9B130032A053 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C902038318FD9B120032A053 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C902038A18FD9B120032A053;
-			remoteInfo = "Münar Lander";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		C902038B18FD9B120032A053 /* Munar lander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Munar lander.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C902038E18FD9B120032A053 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -90,12 +75,10 @@
 		C902039818FD9B130032A053 /* Munar lander-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Munar lander-Info.plist"; sourceTree = "<group>"; };
 		C902039A18FD9B130032A053 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C902039C18FD9B130032A053 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C902039E18FD9B130032A053 /* Munar lander-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Munar lander-Prefix.pch"; sourceTree = "<group>"; };
 		C902039F18FD9B130032A053 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C90203A018FD9B130032A053 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C90203A518FD9B130032A053 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C90203AD18FD9B130032A053 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C90203B318FD9B130032A053 /* Munar landerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Munar landerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90203B418FD9B130032A053 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C90203BC18FD9B130032A053 /* Munar landerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Munar landerTests-Info.plist"; sourceTree = "<group>"; };
 		C90203BE18FD9B130032A053 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -147,6 +130,7 @@
 		C943E3391900BCB900BCF511 /* Landing_Effect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Landing_Effect.wav; sourceTree = "<group>"; };
 		C943E33A1900BCB900BCF511 /* Main_Thruster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Main_Thruster.wav; sourceTree = "<group>"; };
 		C943E33B1900BCB900BCF511 /* Side_Thruster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Side_Thruster.wav; sourceTree = "<group>"; };
+		C9561D951F844EE300AC8916 /* Munar lander-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Munar lander-Prefix.pch"; sourceTree = "<group>"; };
 		C95907B119CE192200C01DF4 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
 		C9623D081909880000023695 /* EngineThrust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EngineThrust.sks; sourceTree = "<group>"; };
 		C9623D091909880000023695 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
@@ -203,16 +187,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C90203B018FD9B130032A053 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C90203B518FD9B130032A053 /* XCTest.framework in Frameworks */,
-				C90203B718FD9B130032A053 /* UIKit.framework in Frameworks */,
-				C90203B618FD9B130032A053 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -230,7 +204,6 @@
 			isa = PBXGroup;
 			children = (
 				C902038B18FD9B120032A053 /* Munar lander.app */,
-				C90203B318FD9B130032A053 /* Munar landerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -291,7 +264,7 @@
 				C902039818FD9B130032A053 /* Munar lander-Info.plist */,
 				C902039918FD9B130032A053 /* InfoPlist.strings */,
 				C902039C18FD9B130032A053 /* main.m */,
-				C902039E18FD9B130032A053 /* Munar lander-Prefix.pch */,
+				C9561D951F844EE300AC8916 /* Munar lander-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -546,31 +519,13 @@
 			productReference = C902038B18FD9B120032A053 /* Munar lander.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C90203B218FD9B130032A053 /* Munar landerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C90203C718FD9B130032A053 /* Build configuration list for PBXNativeTarget "Munar landerTests" */;
-			buildPhases = (
-				C90203AF18FD9B130032A053 /* Sources */,
-				C90203B018FD9B130032A053 /* Frameworks */,
-				C90203B118FD9B130032A053 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C90203B918FD9B130032A053 /* PBXTargetDependency */,
-			);
-			name = "Munar landerTests";
-			productName = "Münar LanderTests";
-			productReference = C90203B318FD9B130032A053 /* Munar landerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		C902038318FD9B120032A053 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Matthew Dutton";
 				TargetAttributes = {
 					C902038A18FD9B120032A053 = {
@@ -580,9 +535,6 @@
 								enabled = 1;
 							};
 						};
-					};
-					C90203B218FD9B130032A053 = {
-						TestTargetID = C902038A18FD9B120032A053;
 					};
 				};
 			};
@@ -600,7 +552,6 @@
 			projectRoot = "";
 			targets = (
 				C902038A18FD9B120032A053 /* Munar lander */,
-				C90203B218FD9B130032A053 /* Munar landerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -640,14 +591,6 @@
 				C943E33C1900BCB900BCF511 /* Death_Explosion.wav in Resources */,
 				C919CA8A19148C5C005A592D /* GAMEOVER.png in Resources */,
 				C943E33D1900BCB900BCF511 /* Landing_Effect.wav in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C90203B118FD9B130032A053 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C90203BF18FD9B130032A053 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -693,23 +636,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C90203AF18FD9B130032A053 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C90203C118FD9B130032A053 /* Mu_nar_LanderTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C90203B918FD9B130032A053 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C902038A18FD9B120032A053 /* Munar lander */;
-			targetProxy = C90203B818FD9B130032A053 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C902039918FD9B130032A053 /* InfoPlist.strings */ = {
@@ -739,19 +666,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -780,18 +718,29 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -818,8 +767,8 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Münar Lander/Munar lander-Prefix.pch";
-				INFOPLIST_FILE = "Münar Lander/Munar lander-Info.plist";
+				GCC_PREFIX_HEADER = "Munar Lander/Munar lander-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Munar Lander/Munar lander-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -847,8 +796,8 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Münar Lander/Munar lander-Prefix.pch";
-				INFOPLIST_FILE = "Münar Lander/Munar lander-Info.plist";
+				GCC_PREFIX_HEADER = "Munar Lander/Munar lander-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Munar Lander/Munar lander-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -861,48 +810,6 @@
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		C90203C818FD9B130032A053 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Münar Lander.app/Münar Lander";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Münar Lander/Münar Lander-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Münar LanderTests/Munar landerTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mkdutton.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "Munar landerTests";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		C90203C918FD9B130032A053 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Münar Lander.app/Münar Lander";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Münar Lander/Münar Lander-Prefix.pch";
-				INFOPLIST_FILE = "Münar LanderTests/Munar landerTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mkdutton.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "Munar landerTests";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -923,15 +830,6 @@
 			buildConfigurations = (
 				C90203C518FD9B130032A053 /* Debug */,
 				C90203C618FD9B130032A053 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C90203C718FD9B130032A053 /* Build configuration list for PBXNativeTarget "Munar landerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C90203C818FD9B130032A053 /* Debug */,
-				C90203C918FD9B130032A053 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
