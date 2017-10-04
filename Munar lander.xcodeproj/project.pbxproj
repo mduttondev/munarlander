@@ -15,11 +15,6 @@
 		C902039D18FD9B130032A053 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C902039C18FD9B130032A053 /* main.m */; };
 		C90203A118FD9B130032A053 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C90203A018FD9B130032A053 /* AppDelegate.m */; };
 		C90203AE18FD9B130032A053 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90203AD18FD9B130032A053 /* Images.xcassets */; };
-		C90203B518FD9B130032A053 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C90203B418FD9B130032A053 /* XCTest.framework */; };
-		C90203B618FD9B130032A053 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C902038E18FD9B120032A053 /* Foundation.framework */; };
-		C90203B718FD9B130032A053 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C902039218FD9B130032A053 /* UIKit.framework */; };
-		C90203BF18FD9B130032A053 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C90203BD18FD9B130032A053 /* InfoPlist.strings */; };
-		C90203C118FD9B130032A053 /* Mu_nar_LanderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C90203C018FD9B130032A053 /* Mu_nar_LanderTests.m */; };
 		C90203CC18FD9E110032A053 /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C90203CB18FD9E110032A053 /* MainMenuScene.m */; };
 		C90203CF18FD9F310032A053 /* OptionsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C90203CE18FD9F310032A053 /* OptionsScene.m */; };
 		C90203D218FD9F7B0032A053 /* GameScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = C90203D118FD9F7B0032A053 /* GameScreen.m */; };
@@ -63,7 +58,6 @@
 		C98684D51910886F00E67280 /* Right_Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C98684CD1910886F00E67280 /* Right_Arrow.png */; };
 		C98684D61910886F00E67280 /* Thrust_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = C98684CE1910886F00E67280 /* Thrust_Button.png */; };
 		C98E054B1A6D87FE00E75CCF /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98E054A1A6D87FE00E75CCF /* GameKit.framework */; };
-		C9AB757D1D0CCCDB009CACF0 /* MunarLander1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = C9AB757C1D0CCCDB009CACF0 /* MunarLander1024x1024.png */; };
 		C9D41F151A65D03C005EAEB2 /* FuelBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D41F141A65D03C005EAEB2 /* FuelBar.m */; };
 		C9D41F171A65D3B1005EAEB2 /* fuel_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D41F161A65D3B1005EAEB2 /* fuel_gradient.png */; };
 		C9D50F911D0CAAE8004EACB8 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D50F8F1D0CAAE8004EACB8 /* Fabric.framework */; };
@@ -71,16 +65,6 @@
 		C9EC4E531A702F01000CAD83 /* LeaderBoardScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EC4E521A702F01000CAD83 /* LeaderBoardScene.m */; };
 		C9F9A9791A70439900589DD6 /* GameDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F9A9781A70439900589DD6 /* GameDataHelper.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		C90203B818FD9B130032A053 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C902038318FD9B120032A053 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C902038A18FD9B120032A053;
-			remoteInfo = "Münar Lander";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C902038B18FD9B120032A053 /* Munar lander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Munar lander.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,12 +75,10 @@
 		C902039818FD9B130032A053 /* Munar lander-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Munar lander-Info.plist"; sourceTree = "<group>"; };
 		C902039A18FD9B130032A053 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C902039C18FD9B130032A053 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C902039E18FD9B130032A053 /* Munar lander-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Munar lander-Prefix.pch"; sourceTree = "<group>"; };
 		C902039F18FD9B130032A053 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C90203A018FD9B130032A053 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C90203A518FD9B130032A053 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C90203AD18FD9B130032A053 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C90203B318FD9B130032A053 /* Munar landerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Munar landerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C90203B418FD9B130032A053 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C90203BC18FD9B130032A053 /* Munar landerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Munar landerTests-Info.plist"; sourceTree = "<group>"; };
 		C90203BE18FD9B130032A053 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -148,6 +130,7 @@
 		C943E3391900BCB900BCF511 /* Landing_Effect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Landing_Effect.wav; sourceTree = "<group>"; };
 		C943E33A1900BCB900BCF511 /* Main_Thruster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Main_Thruster.wav; sourceTree = "<group>"; };
 		C943E33B1900BCB900BCF511 /* Side_Thruster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Side_Thruster.wav; sourceTree = "<group>"; };
+		C9561D951F844EE300AC8916 /* Munar lander-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Munar lander-Prefix.pch"; sourceTree = "<group>"; };
 		C95907B119CE192200C01DF4 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
 		C9623D081909880000023695 /* EngineThrust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EngineThrust.sks; sourceTree = "<group>"; };
 		C9623D091909880000023695 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
@@ -168,8 +151,11 @@
 		C98684CD1910886F00E67280 /* Right_Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Right_Arrow.png; sourceTree = "<group>"; };
 		C98684CE1910886F00E67280 /* Thrust_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thrust_Button.png; sourceTree = "<group>"; };
 		C98E054A1A6D87FE00E75CCF /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		C9AB757C1D0CCCDB009CACF0 /* MunarLander1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MunarLander1024x1024.png; sourceTree = "<group>"; };
 		C9B4FE7D1A718BB300E6D6E8 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C9D1B0791F844A8A00D782E9 /* MunarLander2048x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MunarLander2048x2048.png; sourceTree = "<group>"; };
+		C9D1B07B1F844AE900D782E9 /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		C9D1B07C1F844AEA00D782E9 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		C9D1B07D1F844AEA00D782E9 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
 		C9D41F131A65D03C005EAEB2 /* FuelBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuelBar.h; sourceTree = "<group>"; };
 		C9D41F141A65D03C005EAEB2 /* FuelBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuelBar.m; sourceTree = "<group>"; };
 		C9D41F161A65D3B1005EAEB2 /* fuel_gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuel_gradient.png; sourceTree = "<group>"; };
@@ -201,24 +187,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C90203B018FD9B130032A053 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C90203B518FD9B130032A053 /* XCTest.framework in Frameworks */,
-				C90203B718FD9B130032A053 /* UIKit.framework in Frameworks */,
-				C90203B618FD9B130032A053 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		C902038218FD9B120032A053 = {
 			isa = PBXGroup;
 			children = (
-				C902039618FD9B130032A053 /* Münar Lander */,
-				C90203BA18FD9B130032A053 /* Münar LanderTests */,
+				C902039618FD9B130032A053 /* Munar Lander */,
+				C90203BA18FD9B130032A053 /* Munar LanderTests */,
 				C902038D18FD9B120032A053 /* Frameworks */,
 				C902038C18FD9B120032A053 /* Products */,
 			);
@@ -228,7 +204,6 @@
 			isa = PBXGroup;
 			children = (
 				C902038B18FD9B120032A053 /* Munar lander.app */,
-				C90203B318FD9B130032A053 /* Munar landerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -257,10 +232,10 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C902039618FD9B130032A053 /* Münar Lander */ = {
+		C902039618FD9B130032A053 /* Munar Lander */ = {
 			isa = PBXGroup;
 			children = (
-				C9AB757C1D0CCCDB009CACF0 /* MunarLander1024x1024.png */,
+				C9D1B07A1F844ACF00D782E9 /* Icon Artwork */,
 				C943E33719006F0800BCF511 /* iPad */,
 				C9F9A97A1A70439D00589DD6 /* Game Data Helper */,
 				C90203D618FD9F9F0032A053 /* Main Menu */,
@@ -280,7 +255,7 @@
 				C90203AD18FD9B130032A053 /* Images.xcassets */,
 				C902039718FD9B130032A053 /* Supporting Files */,
 			);
-			path = "Münar Lander";
+			path = "Munar Lander";
 			sourceTree = "<group>";
 		};
 		C902039718FD9B130032A053 /* Supporting Files */ = {
@@ -289,18 +264,18 @@
 				C902039818FD9B130032A053 /* Munar lander-Info.plist */,
 				C902039918FD9B130032A053 /* InfoPlist.strings */,
 				C902039C18FD9B130032A053 /* main.m */,
-				C902039E18FD9B130032A053 /* Munar lander-Prefix.pch */,
+				C9561D951F844EE300AC8916 /* Munar lander-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C90203BA18FD9B130032A053 /* Münar LanderTests */ = {
+		C90203BA18FD9B130032A053 /* Munar LanderTests */ = {
 			isa = PBXGroup;
 			children = (
 				C90203C018FD9B130032A053 /* Mu_nar_LanderTests.m */,
 				C90203BB18FD9B130032A053 /* Supporting Files */,
 			);
-			path = "Münar LanderTests";
+			path = "Munar LanderTests";
 			sourceTree = "<group>";
 		};
 		C90203BB18FD9B130032A053 /* Supporting Files */ = {
@@ -485,6 +460,17 @@
 			name = "Game Images";
 			sourceTree = "<group>";
 		};
+		C9D1B07A1F844ACF00D782E9 /* Icon Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				C9D1B07B1F844AE900D782E9 /* iTunesArtwork@1x.png */,
+				C9D1B07C1F844AEA00D782E9 /* iTunesArtwork@2x.png */,
+				C9D1B07D1F844AEA00D782E9 /* iTunesArtwork@3x.png */,
+				C9D1B0791F844A8A00D782E9 /* MunarLander2048x2048.png */,
+			);
+			name = "Icon Artwork";
+			sourceTree = "<group>";
+		};
 		C9D41F191A65D42E005EAEB2 /* FuelBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -533,43 +519,23 @@
 			productReference = C902038B18FD9B120032A053 /* Munar lander.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C90203B218FD9B130032A053 /* Munar landerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C90203C718FD9B130032A053 /* Build configuration list for PBXNativeTarget "Munar landerTests" */;
-			buildPhases = (
-				C90203AF18FD9B130032A053 /* Sources */,
-				C90203B018FD9B130032A053 /* Frameworks */,
-				C90203B118FD9B130032A053 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C90203B918FD9B130032A053 /* PBXTargetDependency */,
-			);
-			name = "Munar landerTests";
-			productName = "Münar LanderTests";
-			productReference = C90203B318FD9B130032A053 /* Munar landerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		C902038318FD9B120032A053 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Matthew Dutton";
 				TargetAttributes = {
 					C902038A18FD9B120032A053 = {
 						DevelopmentTeam = NN495VBEDV;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
 								enabled = 1;
 							};
 						};
-					};
-					C90203B218FD9B130032A053 = {
-						TestTargetID = C902038A18FD9B120032A053;
 					};
 				};
 			};
@@ -587,7 +553,6 @@
 			projectRoot = "";
 			targets = (
 				C902038A18FD9B120032A053 /* Munar lander */,
-				C90203B218FD9B130032A053 /* Munar landerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -611,7 +576,6 @@
 				C98684D21910886F00E67280 /* Left_Arrow.png in Resources */,
 				C9129DC119143C7500EF21B5 /* SFXON.png in Resources */,
 				C919CC9619152E46005A592D /* README.txt in Resources */,
-				C9AB757D1D0CCCDB009CACF0 /* MunarLander1024x1024.png in Resources */,
 				C964A41E19118DF9007A29FB /* fantasy-forest.mp3 in Resources */,
 				C98684D61910886F00E67280 /* Thrust_Button.png in Resources */,
 				C95907B219CE192200C01DF4 /* iPad.storyboard in Resources */,
@@ -628,14 +592,6 @@
 				C943E33C1900BCB900BCF511 /* Death_Explosion.wav in Resources */,
 				C919CA8A19148C5C005A592D /* GAMEOVER.png in Resources */,
 				C943E33D1900BCB900BCF511 /* Landing_Effect.wav in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C90203B118FD9B130032A053 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C90203BF18FD9B130032A053 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -681,23 +637,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C90203AF18FD9B130032A053 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C90203C118FD9B130032A053 /* Mu_nar_LanderTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C90203B918FD9B130032A053 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C902038A18FD9B120032A053 /* Munar lander */;
-			targetProxy = C90203B818FD9B130032A053 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C902039918FD9B130032A053 /* InfoPlist.strings */ = {
@@ -727,19 +667,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -768,18 +719,29 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -801,13 +763,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NN495VBEDV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Münar Lander/Munar lander-Prefix.pch";
-				INFOPLIST_FILE = "Münar Lander/Munar lander-Info.plist";
+				GCC_PREFIX_HEADER = "Munar Lander/Munar lander-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Munar Lander/Munar lander-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -816,7 +780,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mkdutton.munarlanderfree;
 				PRODUCT_NAME = "Munar lander";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "d6fc9e63-47d5-4a9b-9626-b107c988a2e9";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.mkdutton.munarlanderfree";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
@@ -830,13 +795,15 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = NN495VBEDV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Münar Lander/Munar lander-Prefix.pch";
-				INFOPLIST_FILE = "Münar Lander/Munar lander-Info.plist";
+				GCC_PREFIX_HEADER = "Munar Lander/Munar lander-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Munar Lander/Munar lander-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -845,52 +812,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mkdutton.munarlanderfree;
 				PRODUCT_NAME = "Munar lander";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "d6fc9e63-47d5-4a9b-9626-b107c988a2e9";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.mkdutton.munarlanderfree";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		C90203C818FD9B130032A053 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Münar Lander.app/Münar Lander";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Münar Lander/Münar Lander-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Münar LanderTests/Munar landerTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mkdutton.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "Munar landerTests";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		C90203C918FD9B130032A053 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Münar Lander.app/Münar Lander";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Münar Lander/Münar Lander-Prefix.pch";
-				INFOPLIST_FILE = "Münar LanderTests/Munar landerTests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mkdutton.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "Munar landerTests";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -911,15 +837,6 @@
 			buildConfigurations = (
 				C90203C518FD9B130032A053 /* Debug */,
 				C90203C618FD9B130032A053 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C90203C718FD9B130032A053 /* Build configuration list for PBXNativeTarget "Munar landerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C90203C818FD9B130032A053 /* Debug */,
-				C90203C918FD9B130032A053 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
