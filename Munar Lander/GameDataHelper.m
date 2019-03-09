@@ -187,7 +187,7 @@ static GameDataHelper* instance = nil;
             
             for (GKAchievement* ach in achievements) {
 
-                [achievementDictionary setObject:ach forKey:ach.identifier];
+                [self->achievementDictionary setObject:ach forKey:ach.identifier];
             }
             
             NSLog(@"Achievements (re)loaded- count: %i", (int)[achievements count]);
@@ -204,7 +204,7 @@ static GameDataHelper* instance = nil;
             NSLog(@"Error getting achievement descriptions: %@", error);
         }
         for (GKAchievementDescription* achievementDescription in descriptions) {
-            [achievementDescriptions setObject:achievementDescription forKey:achievementDescription.identifier];
+            [self->achievementDescriptions setObject:achievementDescription forKey:achievementDescription.identifier];
         }
     }];
     

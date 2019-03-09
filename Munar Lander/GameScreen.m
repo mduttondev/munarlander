@@ -294,15 +294,15 @@ typedef NS_OPTIONS(uint32_t, myPhysicsCategory) {
 
         dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
             
-            if (onVictoryPad && !reportedScore) {
+            if (self->onVictoryPad && !self->reportedScore) {
                 
                 [self playerWins];
                 
-                reportedScore = TRUE;
+                self->reportedScore = TRUE;
                 
             } else {
                 
-                fuelLevel += .05;
+                self->fuelLevel += .05;
             }
             
             
@@ -495,12 +495,12 @@ typedef NS_OPTIONS(uint32_t, myPhysicsCategory) {
     dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
         
         //resets the lander after 1 second
-        lander = [landerObject createLander];
-        lander.position = CGPointMake(self.size.width/2, 580);
-        [self addChild:lander];
+        self->lander = [self->landerObject createLander];
+        self->lander.position = CGPointMake(self.size.width/2, 580);
+        [self addChild:self->lander];
         
     
-        thrusterIsOperable = YES;
+        self->thrusterIsOperable = YES;
         
     });
     
@@ -969,7 +969,7 @@ static inline CGFloat skRand(CGFloat low, CGFloat high) {
         CGPoint bgVelocity = CGPointMake( BACKWARDS_MOVEMENT, 0);
         
         // setting the movement by sending to the method the desired change and the amount of time passed
-        CGPoint amountToMove = CGPointMultiplyScalar ( bgVelocity, delta_Time );
+        CGPoint amountToMove = CGPointMultiplyScalar ( bgVelocity, self->delta_Time );
         
         //moving the background by passing in the starting position and how much to move it
         // calculation is done int the CGPointADD function
@@ -977,9 +977,9 @@ static inline CGFloat skRand(CGFloat low, CGFloat high) {
         
         
         // if the origin of BG has moved to 1/2 a frame off the screen then the background movement is over.
-        if ( (backGround.position.x) <= -(self.frame.size.width / 2) + 1  ) {
+        if ( (self->backGround.position.x) <= -(self.frame.size.width / 2) + 1  ) {
             
-            [backGround setPosition:CGPointMake( -(self.frame.size.width / 2) + 1, moving_Background.position.y)];;
+            [self->backGround setPosition:CGPointMake( -(self.frame.size.width / 2) + 1, moving_Background.position.y)];;
         
         }
         
@@ -1002,7 +1002,7 @@ static inline CGFloat skRand(CGFloat low, CGFloat high) {
             CGPoint bgVelocity = CGPointMake( BACKWARDS_MOVEMENT, 0);
             
             // setting the movement by sending to the method the desired change and the amount of time passed
-            CGPoint amountToMove = CGPointMultiplyScalar ( bgVelocity, delta_Time );
+            CGPoint amountToMove = CGPointMultiplyScalar ( bgVelocity, self->delta_Time );
             
             //moving the background by passing in the starting position and how much to move it
             // calculation is done int the CGPointADD function
