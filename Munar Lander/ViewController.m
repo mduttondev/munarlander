@@ -12,8 +12,6 @@
 #import "MainMenuScene.h"
 #import "OptionsScene.h"
 #import <AVFoundation/AVFoundation.h>
-#import "GADBannerView.h"
-#import "GADRequest.h"
 #import "Constants.h"
 
 

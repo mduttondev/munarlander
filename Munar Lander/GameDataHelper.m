@@ -7,7 +7,7 @@
 //
 
 #import "GameDataHelper.h"
-
+#import "UIAlertController+Window.h"
 
 @implementation GameDataHelper
 
@@ -27,7 +27,7 @@ static GameDataHelper* instance = nil;
         
         if( instance == nil) {
             
-            instance= [GameDataHelper new];
+            instance = [GameDataHelper new];
             
         }
         
@@ -267,18 +267,24 @@ static GameDataHelper* instance = nil;
             } else {
                 
                 if (successMessage != nil && successMessage.length > 0) {
-                    
-                    [[[UIAlertView alloc]initWithTitle:@"Achievement(s) Unlocked:"
-                                               message:[NSString stringWithFormat:@"%@", successMessage]
-                                              delegate:self cancelButtonTitle:@"Sweet!!"
-                                     otherButtonTitles: nil] show];
-                
+
+                    UIAlertController *controller = [UIAlertController alertControllerWithTitle:@"Achievement(s) Unlocked:"
+                                                                                        message:[NSString stringWithFormat:@"%@", successMessage] preferredStyle: UIAlertControllerStyleAlert];
+
+                    UIAlertAction *defaultAction = [UIAlertAction actionWithTitle: @"Sweet!!"
+                                                                                    style: UIAlertActionStyleDefault
+                                                                                  handler: nil];
+
+                    [controller addAction: defaultAction];
+
+                    [controller show];
+
                 }
                 //delay retrieving the ACH by 4 seconds to allow the server to record them. If you dont do this you can earn each twice.
                 dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                     
                     [self loadAchievementProgress];
-                
+
                 });
                 
             }
@@ -289,32 +295,6 @@ static GameDataHelper* instance = nil;
     
     
 }
-
-
-//**********************************************************************
-//
-//                   AlertView Methods
-//
-//**********************************************************************
-#pragma mark -Alertview Methods
-- (void) alertView: (UIAlertView *) alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
-    
-    UITextField *nameForScoring = [alertView textFieldAtIndex:0];
-    
-    NSString* temp = [nameForScoring text];
-    
-    if (temp.length > 8) {
-        temp = [temp substringToIndex:8];
-    }
-    
-    [[NSUserDefaults standardUserDefaults]setObject:temp forKey:kGAMERTAG];
-    [[NSUserDefaults standardUserDefaults]synchronize];
-    
-    
-}
-
-
-
 
 - (void)reachabilityDidChange:(NSNotification *)notification {
     
@@ -343,17 +323,5 @@ static GameDataHelper* instance = nil;
         
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 @end

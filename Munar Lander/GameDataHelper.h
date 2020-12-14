@@ -14,8 +14,7 @@
 
 
 
-@interface GameDataHelper : NSObject <UIAlertViewDelegate>
-    
+@interface GameDataHelper : NSObject
     
 @property NSString* leaderboardID;
 

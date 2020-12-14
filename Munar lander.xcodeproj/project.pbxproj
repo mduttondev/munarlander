@@ -34,7 +34,6 @@
 		C919CA8E191491E8005A592D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C919CA8D191491E8005A592D /* AudioToolbox.framework */; };
 		C919CA90191491F3005A592D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C919CA8F191491F3005A592D /* MessageUI.framework */; };
 		C919CA921914920B005A592D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C919CA911914920B005A592D /* SystemConfiguration.framework */; };
-		C919CC9619152E46005A592D /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = C919CC9419152E46005A592D /* README.txt */; };
 		C922BE3A190FFB060092869D /* rcsThrust.sks in Resources */ = {isa = PBXBuildFile; fileRef = C922BE39190FFB060092869D /* rcsThrust.sks */; };
 		C943E33C1900BCB900BCF511 /* Death_Explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = C943E3381900BCB900BCF511 /* Death_Explosion.wav */; };
 		C943E33D1900BCB900BCF511 /* Landing_Effect.wav in Resources */ = {isa = PBXBuildFile; fileRef = C943E3391900BCB900BCF511 /* Landing_Effect.wav */; };
@@ -49,6 +48,7 @@
 		C964A42219119894007A29FB /* lives_Indicator.png in Resources */ = {isa = PBXBuildFile; fileRef = C964A42119119894007A29FB /* lives_Indicator.png */; };
 		C964A4281911FC9F007A29FB /* GreenCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C964A4261911FC9F007A29FB /* GreenCircle.png */; };
 		C964A4291911FC9F007A29FB /* RedCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C964A4271911FC9F007A29FB /* RedCircle.png */; };
+		C97D338B2587E11C006EF170 /* UIAlertController+Window.m in Sources */ = {isa = PBXBuildFile; fileRef = C97D338A2587E11C006EF170 /* UIAlertController+Window.m */; };
 		C98158121A7176940066F1CD /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C98158111A7176940066F1CD /* Reachability.m */; };
 		C986307E1907244C00C61357 /* SKSpriteNode+DebugDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = C986307D1907244C00C61357 /* SKSpriteNode+DebugDraw.m */; };
 		C98684D01910886F00E67280 /* Asteroid.png in Resources */ = {isa = PBXBuildFile; fileRef = C98684C81910886F00E67280 /* Asteroid.png */; };
@@ -60,8 +60,6 @@
 		C98E054B1A6D87FE00E75CCF /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98E054A1A6D87FE00E75CCF /* GameKit.framework */; };
 		C9D41F151A65D03C005EAEB2 /* FuelBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D41F141A65D03C005EAEB2 /* FuelBar.m */; };
 		C9D41F171A65D3B1005EAEB2 /* fuel_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = C9D41F161A65D3B1005EAEB2 /* fuel_gradient.png */; };
-		C9D50F911D0CAAE8004EACB8 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D50F8F1D0CAAE8004EACB8 /* Fabric.framework */; };
-		C9D50F921D0CAAE8004EACB8 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D50F901D0CAAE8004EACB8 /* Crashlytics.framework */; };
 		C9EC4E531A702F01000CAD83 /* LeaderBoardScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C9EC4E521A702F01000CAD83 /* LeaderBoardScene.m */; };
 		C9F9A9791A70439900589DD6 /* GameDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F9A9781A70439900589DD6 /* GameDataHelper.m */; };
 /* End PBXBuildFile section */
@@ -114,17 +112,6 @@
 		C919CA911914920B005A592D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C919CA9319149217005A592D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		C919CC7C19149EE1005A592D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		C919CC8A19152E46005A592D /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
-		C919CC8B19152E46005A592D /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
-		C919CC8C19152E46005A592D /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
-		C919CC8D19152E46005A592D /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
-		C919CC8E19152E46005A592D /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
-		C919CC8F19152E46005A592D /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
-		C919CC9019152E46005A592D /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
-		C919CC9119152E46005A592D /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
-		C919CC9219152E46005A592D /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
-		C919CC9319152E46005A592D /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
-		C919CC9419152E46005A592D /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		C922BE39190FFB060092869D /* rcsThrust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = rcsThrust.sks; sourceTree = "<group>"; };
 		C943E3381900BCB900BCF511 /* Death_Explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Death_Explosion.wav; sourceTree = "<group>"; };
 		C943E3391900BCB900BCF511 /* Landing_Effect.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Landing_Effect.wav; sourceTree = "<group>"; };
@@ -140,6 +127,8 @@
 		C964A42119119894007A29FB /* lives_Indicator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lives_Indicator.png; sourceTree = "<group>"; };
 		C964A4261911FC9F007A29FB /* GreenCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenCircle.png; sourceTree = "<group>"; };
 		C964A4271911FC9F007A29FB /* RedCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedCircle.png; sourceTree = "<group>"; };
+		C97D33892587E11C006EF170 /* UIAlertController+Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Window.h"; sourceTree = "<group>"; };
+		C97D338A2587E11C006EF170 /* UIAlertController+Window.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Window.m"; sourceTree = "<group>"; };
 		C98158101A7176940066F1CD /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		C98158111A7176940066F1CD /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		C986307C1907244C00C61357 /* SKSpriteNode+DebugDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKSpriteNode+DebugDraw.h"; sourceTree = "<group>"; };
@@ -174,7 +163,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C919CA921914920B005A592D /* SystemConfiguration.framework in Frameworks */,
-				C9D50F911D0CAAE8004EACB8 /* Fabric.framework in Frameworks */,
 				C919CA90191491F3005A592D /* MessageUI.framework in Frameworks */,
 				C919CA8E191491E8005A592D /* AudioToolbox.framework in Frameworks */,
 				C9623D0E1909947700023695 /* AVFoundation.framework in Frameworks */,
@@ -183,7 +171,6 @@
 				C902039318FD9B130032A053 /* UIKit.framework in Frameworks */,
 				C902039518FD9B130032A053 /* SpriteKit.framework in Frameworks */,
 				C902038F18FD9B120032A053 /* Foundation.framework in Frameworks */,
-				C9D50F921D0CAAE8004EACB8 /* Crashlytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +233,6 @@
 				C9D41F191A65D42E005EAEB2 /* FuelBar */,
 				C919CA7D1914589C005A592D /* Main Sprite Files */,
 				C90203D718FD9FAA0032A053 /* Options Menu */,
-				C919CC9719152E54005A592D /* Admob */,
 				C9129DAE191284D900EF21B5 /* Sound Player */,
 				C9623D0C1909881C00023695 /* Particle Emitters */,
 				C986307F1907245800C61357 /* Debug Draw */,
@@ -369,25 +355,6 @@
 			name = Background;
 			sourceTree = "<group>";
 		};
-		C919CC9719152E54005A592D /* Admob */ = {
-			isa = PBXGroup;
-			children = (
-				C919CC8A19152E46005A592D /* GADAdMobExtras.h */,
-				C919CC8B19152E46005A592D /* GADAdNetworkExtras.h */,
-				C919CC8C19152E46005A592D /* GADAdSize.h */,
-				C919CC8D19152E46005A592D /* GADBannerView.h */,
-				C919CC8E19152E46005A592D /* GADBannerViewDelegate.h */,
-				C919CC8F19152E46005A592D /* GADInterstitial.h */,
-				C919CC9019152E46005A592D /* GADInterstitialDelegate.h */,
-				C919CC9119152E46005A592D /* GADRequest.h */,
-				C919CC9219152E46005A592D /* GADRequestError.h */,
-				C919CC9319152E46005A592D /* libGoogleAdMobAds.a */,
-				C919CC9419152E46005A592D /* README.txt */,
-			);
-			name = Admob;
-			path = ..;
-			sourceTree = "<group>";
-		};
 		C943E33719006F0800BCF511 /* iPad */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,6 +366,8 @@
 				C9129DAF1912862400EF21B5 /* ViewController.m */,
 				C95907B119CE192200C01DF4 /* iPad.storyboard */,
 				C9B4FE7D1A718BB300E6D6E8 /* Constants.h */,
+				C97D33892587E11C006EF170 /* UIAlertController+Window.h */,
+				C97D338A2587E11C006EF170 /* UIAlertController+Window.m */,
 			);
 			name = iPad;
 			sourceTree = "<group>";
@@ -508,7 +477,6 @@
 				C902038718FD9B120032A053 /* Sources */,
 				C902038818FD9B120032A053 /* Frameworks */,
 				C902038918FD9B120032A053 /* Resources */,
-				C9D50F8E1D0CAA79004EACB8 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -525,7 +493,7 @@
 		C902038318FD9B120032A053 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Matthew Dutton";
 				TargetAttributes = {
 					C902038A18FD9B120032A053 = {
@@ -541,7 +509,7 @@
 			};
 			buildConfigurationList = C902038618FD9B120032A053 /* Build configuration list for PBXProject "Munar lander" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -575,7 +543,6 @@
 				C9623D0B1909880000023695 /* spark.png in Resources */,
 				C98684D21910886F00E67280 /* Left_Arrow.png in Resources */,
 				C9129DC119143C7500EF21B5 /* SFXON.png in Resources */,
-				C919CC9619152E46005A592D /* README.txt in Resources */,
 				C964A41E19118DF9007A29FB /* fantasy-forest.mp3 in Resources */,
 				C98684D61910886F00E67280 /* Thrust_Button.png in Resources */,
 				C95907B219CE192200C01DF4 /* iPad.storyboard in Resources */,
@@ -596,22 +563,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		C9D50F8E1D0CAA79004EACB8 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run 59f486796c08f97effc9178d1210ee7b7d2862fb d6bc0507f09198ef303827cffa9cf7acce8f24451bd3e338406e554d284f58e8";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C902038718FD9B120032A053 /* Sources */ = {
@@ -634,6 +585,7 @@
 				C90203D218FD9F7B0032A053 /* GameScreen.m in Sources */,
 				C9F9A9791A70439900589DD6 /* GameDataHelper.m in Sources */,
 				C98158121A7176940066F1CD /* Reachability.m in Sources */,
+				C97D338B2587E11C006EF170 /* UIAlertController+Window.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -681,6 +633,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -705,7 +658,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
@@ -735,6 +688,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -752,7 +706,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
@@ -776,7 +730,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Munar Lander/Munar lander-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Munar Lander/Munar lander-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Matt/Desktop,
@@ -808,7 +762,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Munar Lander/Munar lander-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Munar Lander/Munar lander-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/Matt/Desktop,

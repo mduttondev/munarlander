@@ -38,10 +38,7 @@
     
     if (self = [super init]) {
         
-        
         defaults = [NSUserDefaults standardUserDefaults];
-        
-        
         
         url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"fantasy-forest" ofType:@"mp3"]];
         
@@ -115,10 +112,6 @@
             [self doesPlayBGSound:NO];
             
         }
-        
-       
-        
-        
         // setting up the background music to play or not
         if ([defaults objectForKey:@"soundFXOn"] != nil) {
             
@@ -130,12 +123,7 @@
             
             soundFXOn = YES;
         }
-        
-        
-        
-        
-        
-        
+
     }
     return self;
     

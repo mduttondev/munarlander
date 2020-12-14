@@ -8,9 +8,6 @@
 
 #import "AppDelegate.h"
 #import "Reachability.h"
-#import <Fabric/Fabric.h>
-#import <Crashlytics/Crashlytics.h>
-
 
 @implementation AppDelegate
 
@@ -20,7 +17,6 @@
     Reachability* reachability = [Reachability reachabilityForInternetConnection];
     [reachability startNotifier];
     
-    [Fabric with:@[[Crashlytics class]]];
 
     return YES;
 }
@@ -52,34 +48,5 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @end
